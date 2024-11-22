@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter, sans-serif;
+    margin: auto;
+}
+
+h1 {
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    font-size: 14px;
+    color: ;
+}
+
+p {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    margin: 0px auto;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    font-family: Inter, sans-serif;
+}
+
+.main-style {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
+
+.main {
+    background-color: hsl(0, 0%, 12%);
+    width: ;
+}
