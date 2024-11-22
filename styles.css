@@ -11,7 +11,7 @@ h1 {
 
 h3 {
     font-size: 14px;
-    color: ;
+    color: hsl(75, 94%, 57%);
 }
 
 p {
@@ -19,16 +19,36 @@ p {
     color: hsl(0, 0%, 100%);
 }
 
+img {
+    border-radius: 100px;
+    width: 90px;
+}
+
 a {
     text-decoration: none;
 }
 
-button {
-    display: block;
-    margin: 0px auto;
-    color: hsl(0, 0%, 100%);
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    text-align: center;
     background-color: hsl(0, 0%, 20%);
-    font-family: Inter, sans-serif;
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+li:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
 }
 
 .main-style {
@@ -40,5 +60,7 @@ button {
 
 .main {
     background-color: hsl(0, 0%, 12%);
-    width: ;
+    width: 400px;
+    padding: 50px 0px;
+    min-width: 400px;
 }
